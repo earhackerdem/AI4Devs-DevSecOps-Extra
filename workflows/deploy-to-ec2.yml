@@ -2,7 +2,7 @@ name: Deploy React App to EC2
 
 on:
   pull_request:
-    branches: [ poc ]
+    branches: [ main ]
     types: [opened, synchronize]
 
 jobs:
